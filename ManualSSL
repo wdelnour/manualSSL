@@ -1,0 +1,17 @@
+1. Launch certbot on manual mode:
+$ sudo certbot certonly --manual
+
+2. Enter domain name:
+Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c' to cancel): devis.cool
+
+3. Agree for the IP being logged:
+Are you OK with your IP being logged? Y
+
+4. You will receive instructions to create a file and make it available on your webserver:
+ 
+IMPORTANT NOTES:
+ 
+- Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/devis.cool/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/devis.cool/privkey.pem
